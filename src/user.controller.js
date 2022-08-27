@@ -1,4 +1,4 @@
-import {pool} from './index.js'
+import cors from "cors";
 
 class UserController {
     async createUser(req, res) {
