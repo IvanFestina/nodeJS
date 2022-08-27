@@ -2,7 +2,7 @@ import express from 'express'
 import mongoose from "mongoose";
 import router from './routes.js'
 import fileUpload from 'express-fileupload'
-const _URL = 'mongodb+srv://Festina:lostmineofphandelver@haleradev.clujbpt.mongodb.net/?retryWrites=true&w=majority'
+
 const PORT = process.env.PORT || 5000
 
 const app = express()
